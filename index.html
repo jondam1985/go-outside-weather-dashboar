@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboar</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+</head>
+
+<body>
+
+    <!--Header sections with titles-->
+    <header>
+        <h1>Should I Go Outside?</h1>
+        <h2>Weather Dasboard</h2>
+    </header>
+
+    <!--Main sections where all functionality is located-->
+    <main>
+
+        <!--Section containing search functionality-->
+        <div id="left_div">
+            <p>Search for a city</p>
+            <div id="searchFunc">
+                <input type="text" placeholder="city" id="searchCity">
+                <button id="search"><img src="#" alt="search"></button>
+            </div>
+            <p id="error"></p>
+            <div id="pastCities"></div>
+        </div>
+
+        <!--Sections where results will be presented-->
+        <div id="right_div">
+
+            <!--Current weather-->
+            <div id="currentCity">
+                <h3 id=city>City</h3>
+                <p class=current_info>Temperature: <span class="current_info" id="temp">placeholder</span></p>
+                <p class=current_info>Humidity: <span class="current_info" id="humid">placeholder</span></p>
+                <p class=current_info>Wind Speed: <span class="current_info" id="wind">placeholder</span></p>
+                <p class=current_info>UV Index: <span class="current_info" id="uvIndex">placeholder</span></p>
+            </div>
+            <div id="currentIcon">
+                <img id="icon" src="#" alt="">
+            </div>
+
+            <!--Forecast weather, five days-->
+            <div id="forecastDiv">
+                <h3>Five-day Forecast</h3>
+                <div id="forecastBlocks">
+                    <div class="forecast_data">
+                        <h5 class="forecast_date">11/11/2019</h5>
+                        <img class="forecast_icon" src="#" alt="">
+                        <p class="forecast_temp">Temp: <span class="forecast_temp_data">placeholder</span></p>
+                        <p class="forecast_humid">Humidity: <span class="forecast_humid_data">placeholder</span></p>
+                    </div>
+                    <div class="forecast_data">
+                        <h5 class="forecast_date">11/11/2019</h5>
+                        <img class="forecast_icon" src="#" alt="">
+                        <p class="forecast_temp">Temp: <span class="forecast_temp_data">placeholder</span></p>
+                        <p class="forecast_humid">Humidity: <span class="forecast_humid_data">placeholder</span></p>
+                    </div>
+                    <div class="forecast_data">
+                        <h5 class="forecast_date">11/11/2019</h5>
+                        <img class="forecast_icon" src="#" alt="">
+                        <p class="forecast_temp">Temp: <span class="forecast_temp_data">placeholder</span></p>
+                        <p class="forecast_humid">Humidity: <span class="forecast_humid_data">placeholder</span></p>
+                    </div>
+                    <div class="forecast_data">
+                        <h5 class="forecast_date">11/11/2019</h5>
+                        <img class="forecast_icon" src="#" alt="">
+                        <p class="forecast_temp">Temp: <span class="forecast_temp_data">placeholder</span></p>
+                        <p class="forecast_humid">Humidity: <span class="forecast_humid_data">placeholder</span></p>
+                    </div>
+                    <div class="forecast_data">
+                        <h5 class="forecast_date">11/11/2019</h5>
+                        <img class="forecast_icon" src="#" alt="">
+                        <p class="forecast_temp">Temp: <span class="forecast_temp_data">placeholder</span></p>
+                        <p class="forecast_humid">Humidity: <span class="forecast_humid_data">placeholder</span></p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                Copyright
+            </footer>
+    </main>
+
+    <script src="assets/scripts/jquery.js"></script>
+    <script id="onloadjs" src="assets/scripts/onload.js"></script>
+    <script src="assets/scripts/pastSearch.js"></script>
+    <script src="assets/scripts/script.js"></script>
+
+</body>
+
+</html>

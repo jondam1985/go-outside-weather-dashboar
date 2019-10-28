@@ -1,0 +1,116 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header elements */
+header {
+    height: 150px;
+    padding-top: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/* Main content */
+main {
+    display: flex;
+}
+
+/* Search functionality */
+#left_div {
+    width: 30%;
+    padding: 40px;
+}
+
+#left_div p {
+    margin-bottom: 15px;
+}
+
+#searchFunc {
+    height: 30px;
+    display: flex;
+    margin-bottom: 0;
+
+}
+#searchCity {
+    height: 30px;
+    width: 250px;
+    margin-right: -15px;
+}
+
+#error {
+    height: 35px;
+    margin-bottom: 0;
+}
+
+#search {
+    width: 30px;
+    height: 30px;
+}
+
+#search img {
+    height: 25px;
+    width: 25px;
+}
+
+#pastCities {
+
+}
+
+/* Weather information section */
+.righ_div {
+    width: 70%;
+    display: flex;
+}
+
+/* Current weather information */
+#currentCity {
+    width: 80%;
+    height: 200px;
+}
+
+.current_info {
+
+}
+
+#uvIndex {
+
+}
+
+#currentIcon {
+    width: 20%;
+}
+
+#icon {
+
+}
+
+/* Forecast blocks */
+#forecastDiv {
+    height: 300px;
+}
+
+#forecastDiv h3 {
+
+}
+
+#forecastBlocks {
+    display: flex;
+}
+
+.forecast_data {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
+
