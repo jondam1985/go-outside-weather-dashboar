@@ -91,17 +91,3 @@ search.click(function () {
     }
     )
 })
-
-//Building previously searched cities area
-
-
-// if (localStorage.getItem(citiesObj == null)) {
-// var citiesObj = {};
-// localStorage.setItem("citiesObj", JSON.stringify(citiesObj));
-// }
-// var citiesObj = JSON.parse(localStorage.getItem(citiesObj))
-// citiesObj[searchCity.val()] = searchCity.val();
-// for (var key in citiesObj) {
-//     $("<p>").text(key).append(pastCities);
-// }
-// localStorage.setItem("citiesObj", JSON.stringify(citiesObj));

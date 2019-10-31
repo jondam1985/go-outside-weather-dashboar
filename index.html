@@ -24,7 +24,7 @@
             <p>Search for a city</p>
             <div id="searchFunc">
                 <input type="text" placeholder="city" id="searchCity">
-                <button id="search"><img src="#" alt="search"></button>
+                <button id="search"><img src="./assets/icons/magnifying-glass.svg" alt="search"></button>
             </div>
             <p id="error"></p>
             <div id="pastCities"></div>
@@ -34,15 +34,17 @@
         <div id="right_div">
 
             <!--Current weather-->
-            <div id="currentCity">
-                <h3 id=city>City</h3>
-                <p class=current_info>Temperature: <span class="current_info" id="temp">placeholder</span></p>
-                <p class=current_info>Humidity: <span class="current_info" id="humid">placeholder</span></p>
-                <p class=current_info>Wind Speed: <span class="current_info" id="wind">placeholder</span></p>
-                <p class=current_info>UV Index: <span class="current_info" id="uvIndex">placeholder</span></p>
-            </div>
-            <div id="currentIcon">
-                <img id="icon" src="#" alt="">
+            <div id="currentWeather">
+                <div id="currentCity">
+                    <h3 id=city>City</h3>
+                    <p class=current_info>Temperature: <span class="current_info" id="temp">placeholder</span></p>
+                    <p class=current_info>Humidity: <span class="current_info" id="humid">placeholder</span></p>
+                    <p class=current_info>Wind Speed: <span class="current_info" id="wind">placeholder</span></p>
+                    <p class=current_info>UV Index: <span class="current_info" id="uvIndex">placeholder</span></p>
+                </div>
+                <div id="currentIcon">
+                    <img id="icon" src="#" alt="">
+                </div>
             </div>
 
             <!--Forecast weather, five days-->
@@ -81,9 +83,6 @@
                     </div>
                 </div>
             </div>
-            <footer>
-                Copyright
-            </footer>
     </main>
 
     <script src="assets/scripts/jquery.js"></script>
